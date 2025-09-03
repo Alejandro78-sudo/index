@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+nav h2 { color: white; margin: 0; }
+nav ul { list-style: none; display: flex; margin: 0; padding: 0; }
+nav ul li { margin-left: 20px; }
+nav ul li a { color: white; text-decoration: none; font-weight: 600; }
+
+header {
+  background: url('https://i.pinimg.com/1200x/f9/fe/83/f9fe83629afed6fa67474b275f36cc87.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+header h1 { font-size: 3rem; margin: 0; }
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+section h2 { text-align: center; margin-bottom: 30px; }
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+form button {
+  background: #008037;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+}

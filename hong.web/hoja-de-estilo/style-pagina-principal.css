@@ -67,7 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   animation: cambiarFondo 30s infinite;
-  background-image: url("/imagenes/12.png"); /* 🔹 tu imagen */
+  background-image: url("/index/hong.web/imagenes/12.png"); /* 🔹 tu imagen */
   background-size: contain;
   background-position: center;
   background-attachment: center; /* efecto parallax */

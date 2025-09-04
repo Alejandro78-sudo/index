@@ -12,14 +12,17 @@ body {
 }
 
 header {
-  background: #346ba2;
+  background: #8dc3f9;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 15px;
   text-align: center;
+  background: url(https://i.pinimg.com/1200x/8e/3c/4e/8e3c4e858347d55dcd8a6676f1f94574.jpg) no-repeat center center/cover;
 }
 
 header h1 {
   font-size: 2.5rem;
+  font-family: cursive;
+
 }
 
 nav {
